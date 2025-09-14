@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="feat: account setup &amp; info commands">
-      <change afterPath="$PROJECT_DIR$/macaw2/commands/entry.py" afterDir="false" />
+    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="feat: entry commmand">
+      <change afterPath="$PROJECT_DIR$/macaw2/commands/void.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macaw2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/main.py" afterDir="false" />
     </list>
@@ -77,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1757811443652</updated>
       <workItem from="1757811444723" duration="2868000" />
-      <workItem from="1757848871371" duration="90000" />
+      <workItem from="1757848871371" duration="733000" />
+      <workItem from="1757849637702" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -111,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757814154039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: entry commmand">
+      <option name="closed" value="true" />
+      <created>1757849156756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757849156756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +131,7 @@
     <MESSAGE value="feat: click cli integration" />
     <MESSAGE value="feat: peewee database integration" />
     <MESSAGE value="feat: account setup &amp; info commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: account setup &amp; info commands" />
+    <MESSAGE value="feat: entry commmand" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: entry commmand" />
   </component>
 </project>
