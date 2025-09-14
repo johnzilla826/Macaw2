@@ -13,7 +13,8 @@ license = { text = "MIT" }
 dependencies = [
     "click",
     "peewee",
-    "platformdirs"
+    "platformdirs",
+    "pandas"
 ]
 
 [project.scripts]

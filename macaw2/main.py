@@ -1,5 +1,5 @@
 import click
-from macaw2.models.database import init_db
+from macaw2.models.database import init_db, Account, Transaction, Entry
 
 
 @click.group(
@@ -9,7 +9,7 @@ from macaw2.models.database import init_db
 def cli():
     db = init_db()
     db.connect()
-    # db.create_tables([Account])
+    db.create_tables([Account, Transaction, Entry], safe=True)
     pass
 
 # Commands
