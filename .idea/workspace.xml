@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="chore: init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/macaw2/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/macaw2/commands/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/macaw2/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="feat: click cli integration">
+      <change afterPath="$PROJECT_DIR$/macaw2/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macaw2/models/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macaw2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -78,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757811443652</updated>
-      <workItem from="1757811444723" duration="1537000" />
+      <workItem from="1757811444723" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -88,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757812324134</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: click cli integration">
+      <option name="closed" value="true" />
+      <created>1757813064696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757813064696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: init" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: init" />
+    <MESSAGE value="feat: click cli integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: click cli integration" />
   </component>
 </project>
