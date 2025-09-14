@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macaw2"
+version = "0.1.0"
+description = "Macaw2: Double-entry accounting CLI"
+readme = "readme.md"
+requires-python = ">=3.9"
+authors = [{ name = "John Sweet" }]
+license = { text = "MIT" }
+dependencies = [
+  "click",
+]
+
+[project.scripts]
+macaw2 = "macaw2.main:cli"
