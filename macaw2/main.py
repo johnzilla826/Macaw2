@@ -14,8 +14,10 @@ def cli():
 
 # Commands
 from macaw2.commands.account import account
+from macaw2.commands.entry import entry
 
 cli.add_command(account)
+cli.add_command(entry)
 
 if __name__ == "__main__":
     cli()
