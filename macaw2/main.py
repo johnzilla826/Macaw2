@@ -3,8 +3,8 @@ from macaw2.models.database import init_db, Account, Transaction, Entry
 
 
 @click.group(
-    help="Macaw2. A simple, reliable command-line interface for personal and small-business accounting.",
-    context_settings={"help_option_names": ["-h", "--help"]},
+    help="\033[34mMacaw2: A simple, reliable command-line interface for personal and small-business accounting.\033[0m",
+context_settings={"help_option_names": ["-h", "--help"]},
 )
 def cli():
     db = init_db()
@@ -15,7 +15,7 @@ def cli():
 # Commands
 from macaw2.commands.account import account
 from macaw2.commands.entry import entry
-from macaw2.commands.void import reverse
+from macaw2.commands.reverse import reverse
 
 cli.add_command(account)
 cli.add_command(entry)

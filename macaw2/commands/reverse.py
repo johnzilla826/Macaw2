@@ -6,7 +6,10 @@ from macaw2.models.database import Entry, Transaction, db_proxy
 @click.command()
 @click.argument("transaction_id", type=int)
 def reverse(transaction_id):
+    """
+    Appends a reversal transaction to the database.
 
+    """
     tx = Transaction.get_or_none(Transaction.id == transaction_id)
     if not tx:
         raise ClickException(f"There is no transaction with id #{transaction_id}.")

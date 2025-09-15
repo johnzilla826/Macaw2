@@ -12,7 +12,6 @@ def init_db():
     db_proxy.initialize(db)
     return db
 
-
 class BaseModel(Model):
     class Meta:
         database = db_proxy
