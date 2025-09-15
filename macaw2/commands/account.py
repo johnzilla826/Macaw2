@@ -4,12 +4,11 @@ from macaw2.models.database import Account
 
 @click.group()
 def account():
-    """Account commands"""
+    """Commands to manage the chart of accounts."""
 
 @account.command()
 def setup():
     """Create an account."""
-    """Create a new account."""
     click.echo(
         "Please enter your desired account id. It is recommended to follow the standard naming convention. https://www.accountingtools.com/articles/chart-of-accounts-numbering.html")
     account_id = click.prompt("Account id", type=int)

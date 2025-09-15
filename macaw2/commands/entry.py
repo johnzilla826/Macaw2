@@ -6,6 +6,14 @@ from macaw2.models.database import Account, Transaction, Entry, db_proxy
 
 @click.command()
 def entry():
+    """
+    Enter journal entries as: <type> <account> <amount>
+
+    dr fuel 65
+    cr mybank:checking 65
+
+    For general accounting principles, refer to this document: https://www.extension.iastate.edu/agdm/wholefarm/pdf/c6-33.pdf
+    """
     date_entry = click.prompt(
         "Date",
         type=click.DateTime(formats=["%Y-%m-%d"]),

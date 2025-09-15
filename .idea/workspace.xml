@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="feat: reversal command">
+    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="chore: new error messages for void">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macaw2/commands/void.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/commands/void.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macaw2/commands/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/commands/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macaw2/commands/entry.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/commands/entry.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <workItem from="1757811444723" duration="2868000" />
       <workItem from="1757848871371" duration="733000" />
       <workItem from="1757849637702" duration="1075000" />
-      <workItem from="1757894511965" duration="4980000" />
+      <workItem from="1757894511965" duration="5378000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -137,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757896855191</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore: new error messages for void">
+      <option name="closed" value="true" />
+      <created>1757901490272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757901490272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +160,7 @@
     <MESSAGE value="feat: entry commmand" />
     <MESSAGE value="feat: partial reversal command" />
     <MESSAGE value="feat: reversal command" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: reversal command" />
+    <MESSAGE value="chore: new error messages for void" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: new error messages for void" />
   </component>
 </project>
