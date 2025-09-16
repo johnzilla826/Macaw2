@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="chore: new cli messages">
+    <list default="true" id="1c2bc959-bd20-484e-8a09-de60600bc8f9" name="Changes" comment="chore: new cli colors and messages">
+      <change afterPath="$PROJECT_DIR$/macaw2/commands/trial_balance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macaw2/commands/void.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/commands/reverse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/macaw2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/macaw2/models/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/macaw2/models/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,9 @@
       <workItem from="1757848871371" duration="733000" />
       <workItem from="1757849637702" duration="1075000" />
       <workItem from="1757894511965" duration="5721000" />
-      <workItem from="1757936662100" duration="889000" />
+      <workItem from="1757936662100" duration="1023000" />
+      <workItem from="1758035583903" duration="1269000" />
+      <workItem from="1758036872249" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -156,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757901930419</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="chore: new cli colors and messages">
+      <option name="closed" value="true" />
+      <created>1757937689009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757937689009</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="feat: reversal command" />
     <MESSAGE value="chore: new error messages for void" />
     <MESSAGE value="chore: new cli messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: new cli messages" />
+    <MESSAGE value="chore: new cli colors and messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: new cli colors and messages" />
   </component>
 </project>

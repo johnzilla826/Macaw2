@@ -16,10 +16,12 @@ def cli():
 from macaw2.commands.account import account
 from macaw2.commands.entry import entry
 from macaw2.commands.reverse import reverse
+from macaw2.commands.trial_balance import trial_balance
 
 cli.add_command(account)
 cli.add_command(entry)
 cli.add_command(reverse)
+cli.add_command(trial_balance)
 
 if __name__ == "__main__":
     cli()
